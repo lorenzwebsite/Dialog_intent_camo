@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SquareBallRectangle</string>
+    <string name="square">Square</string>
+    <string name="circle">Circle</string>
+    <string name="triangle">Triangle</string>
+    <string name="cake">Piece of cake</string>
+</resources>

@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <square.ball.rectangle.SquareBallRectangleView
+        android:id="@+id/square_ball_rectangle_view"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/shape_selection_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/radio_button_square"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="square_shape_selected"
+            android:text="@string/square"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_ball"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ball_shape_selected"
+            android:text="@string/circle"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_rectangle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="triangle_shape_selected"
+            android:text="@string/triangle"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_pieceOfCake"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="pieceOfCake_shape_selected"
+            android:text="@string/cake"/>
+    </RadioGroup>
+
+
+</LinearLayout>

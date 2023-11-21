@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SquareBallRectangle</string>
+    <string name="square">Neliö</string>
+    <string name="circle">Pallo</string>
+    <string name="triangle">Kolmio</string>
+    <string name="cake">Kakkupala</string>
+</resources>
